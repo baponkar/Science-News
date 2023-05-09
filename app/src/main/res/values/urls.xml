@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="urls">
+        <item>https://www.space.com</item>
+        <item>https://www.newscientist.com</item>
+        <item>https://www.livescience.com</item>
+        <item>https://www.bigthink.com</item>
+        <item>https://www.futurism.com</item>
+        <item>https://www.phys.org</item>
+        <item>https://www.scientificamerican.com</item>
+        <item>https://www.nature.com</item>
+        <item>https://journals.aps.org/prl/</item>
+        <item>https://www.sciencealert.com</item>
+        <item>https://blog.frontiersin.org</item>
+        <item>https://scitechdaily.com</item>
+        <item>https://www.cantorsparadise.com</item>
+        <item>https://www.popularmechanics.com</item>
+        <item>https://theconversation.com</item>
+        <item>https://www.universetoday.com</item>
+        <item>https://www.quantamagazine.org</item>
+        <item>https://www.freethink.com</item>
+        <item>https://www.astronomy.com</item>
+        <item>https://bgr.com</item>
+        <item>https://new-ground.com</item>
+        <item>https://noetic.org</item>
+        <item>https://www.sciencedaily.com/</item>
+        <item>https://gagadget.com</item>
+        <item>https://towardsdatascience.com/</item>
+        <item>https://itsfoss.com/</item>
+    </string-array>
+</resources>

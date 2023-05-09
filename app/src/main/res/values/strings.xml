@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Science News</string>
+    <string name="developer">Developed by : Bapon Kar</string>
+    <string name="version">Version : 1.0.0</string>
+    <string name="copyright">Copyright : baponkar © 2023</string>
+    <string name="contact">You can sent me new link additionn or any suggestion :\nbaponkar@gmail.com</string>
+
+    <!--Menu strings-->
+    <string name="Menu">Menu</string>
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+    <string name="Quit">Quit</string>
+    <string name="Info">Info</string>
+    <string name="app_detail">This app is showing third party websites which are related to publishing science and tech news.This app needs only Internet Permission, It is not storing any user data locally or remotely.\nTarget API : 33\nMinimum SDK Version : 24\nMinimum Android Version : 7.\nBuild Date : 9th May, 2023.</string>
+
+    <!-- Website links start-->
+    <string name="space">https://www.space.com</string>
+    <string name="new_scientist">https://www.newscientist.com</string>
+    <string name="live_science">https://www.livescience.com</string>
+    <string name="big_think">https://www.bigthink.com</string>
+    <string name="futurism">https://www.futurism.com</string>
+    <string name="phys_org">https://www.phys.org</string>
+    <string name="scientific_american">https://www.scientificamerican.com</string>
+    <string name="nature">https://www.nature.com</string>
+    <string name="physical_review_letters">https://journals.aps.org/prl/</string>
+    <string name="science_alert">https://www.sciencealert.com</string>
+    <string name="frontiersin">https://blog.frontiersin.org</string>
+    <string name="sci_tech_daily">https://scitechdaily.com</string>
+    <string name="medium">https://www.cantorsparadise.com</string>
+    <string name="popular_mechanics">https://www.popularmechanics.com</string>
+    <string name="the_conversition">https://theconversation.com</string>
+    <string name="universe_today">https://www.universetoday.com</string>
+    <string name="quantum_magazine">https://www.quantamagazine.org</string>
+    <string name="free_think">https://www.freethink.com</string>
+    <string name="astronomy">https://www.astronomy.com</string>
+    <string name="bgr">https://bgr.com</string>
+    <string name="new_ground">https://new-ground.com</string>
+    <string name="noetic">https://noetic.org</string>
+    <string name="science_daily">https://www.sciencedaily.com/</string>
+    <string name="Gagadget">https://gagadget.com</string>
+    <string name="TowardsDataScience">https://towardsdatascience.com</string>
+    <string name="ItsFoss">https://itsfoss.com/</string>
+    <!-- Website links ends-->
+
+
+</resources>
