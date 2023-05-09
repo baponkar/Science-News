@@ -12,18 +12,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
+
+import com.airbnb.lottie.LottieAnimationView;
+
 public class TermsActivity extends AppCompatActivity {
     WebView webView;
-    ProgressBar progressBar;
+    LottieAnimationView loadingAnimationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_terms);
 
         webView = findViewById(R.id.webView);
-        progressBar = findViewById(R.id.progressBar);
+        loadingAnimationView = findViewById(R.id.loadingAnimationView);
 
-        loadUrl("https://baponkar.github.io/Science-News/");
+        loadUrl("https://baponkar.github.io/Science-News/terms_and_conditions.html");
 
     }
 
@@ -64,7 +67,7 @@ public class TermsActivity extends AppCompatActivity {
         @Override
         public void onPageStarted(WebView webView, String url, Bitmap favicon){
             super.onPageStarted(webView,url,favicon);
-            progressBar.setVisibility(View.VISIBLE);
+            loadingAnimationView.setVisibility(View.VISIBLE);
         }
         @Override
         public boolean shouldOverrideUrlLoading(WebView webView,String url){
@@ -74,7 +77,7 @@ public class TermsActivity extends AppCompatActivity {
         @Override
         public void onPageFinished(WebView webView, String url){
             super.onPageFinished(webView, url);
-            progressBar.setVisibility(View.GONE);
+            loadingAnimationView.setVisibility(View.GONE);
         }
 
         @Override

@@ -45,28 +45,52 @@
         android:textColor="@color/red"
         android:textStyle="bold"
         />
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/app_detailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/teal_200"
+                android:text="@string/app_detail"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:scrollbars="vertical"
+                />
+
+        </ScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading Animation : "
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
     <TextView
-        android:id="@+id/app_detailTextView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/app_detail"
-        android:textSize="20dp"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
-        android:textColor="@color/black"
-        />
-    <TextView
-        android:id="@+id/developerTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/developer"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="@color/black"
-        />
+        android:text="https://lottiefiles.com/100011-loading"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Internet Animation : "
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="https://assets4.lottiefiles.com/packages/lf20_45z9ii41.json"/>
 
     <TextView
         android:id="@+id/contactTextView"

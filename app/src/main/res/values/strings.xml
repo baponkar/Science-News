@@ -11,8 +11,8 @@
     <string name="Help">Help</string>
     <string name="Quit">Quit</string>
     <string name="Info">Info</string>
-    <string name="app_detail">This app is showing third party websites which are related to publishing science and tech news.This app needs only Internet Permission, It is not storing any user data locally or remotely.\nTarget API : 33\nMinimum SDK Version : 24\nMinimum Android Version : 7.\nBuild Date : 9th May, 2023.</string>
-
+    <string name="app_detail">This app is showing third party websites which are related to publishing science and tech news.This app needs only Internet Permission, It is not storing any user data locally or remotely.\nTarget API : 33\nMinimum SDK Version : 24\nMinimum Android Version : 7.\nBuild Date : 9th May, 2023.\nDowlnload Source Code : https://github.com/baponkar/Science-News\n\n</string>
+    <string name="credits">loading animation https://lottiefiles.com/100011-loading,</string>
     <!-- Website links start-->
     <string name="space">https://www.space.com</string>
     <string name="new_scientist">https://www.newscientist.com</string>

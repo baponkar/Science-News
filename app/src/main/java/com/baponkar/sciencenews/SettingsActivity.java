@@ -42,6 +42,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         editText = (EditText) findViewById(R.id.editText);
 
+        /*
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -71,7 +72,7 @@ public class SettingsActivity extends AppCompatActivity {
                 }
             }
         });
-
+        */
         //Shared preference
         SharedPreferences pref = getApplicationContext().getSharedPreferences("Settings", Context.MODE_WORLD_READABLE );
         //We need an editor to edit and save thhe changes in shared preferences
